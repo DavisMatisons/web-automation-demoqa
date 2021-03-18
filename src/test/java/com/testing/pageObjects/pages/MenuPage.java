@@ -12,6 +12,7 @@ public class MenuPage extends WidgetsPage {
   public static By MAIN_ITEM_2;
   public static By MAIN_ITEM_3;
   // Might be necessary to use a xpath selector
+  //xpath("(//input[contains(@id, 'react-select')])[3]")
   public static By SUB_SUB_LIST;
   public static By SUB_SUB_ITEM_1;
   public static By SUB_SUB_ITEM_2;
