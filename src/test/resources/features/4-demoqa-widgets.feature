@@ -70,7 +70,7 @@ Feature: DemoQA - Widgets
     Then "Content" should contain "Various versions have evolved over the years"
     When I click "What tab"
     Then "Content" should contain "unknown printer took a galley"
-  @run
+
   Scenario: Tool tips
     When I click "Tool Tips option"
     And  I hover over "Hover me to see button"
@@ -93,7 +93,7 @@ Feature: DemoQA - Widgets
     When I hover over "SUB SUB LIST"
     Then "Sub Sub item 1" should be "visible"
     And  "Sub Sub item 2" should be "visible"
-
+  @run
   Scenario: Select Menu
     When I click "Select Menu option"
     And  I set "Select Value" to "Another root option"
