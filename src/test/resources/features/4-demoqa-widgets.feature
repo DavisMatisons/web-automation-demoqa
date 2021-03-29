@@ -53,7 +53,7 @@ Feature: DemoQA - Widgets
     Then I see "Slider value" with the following data:
       | Value |
       | 40    |
-  @run
+  #didn't figure this one out
   Scenario: Progress bar
     When I click "Progress bar option"
     And  I set "Progress bar" to "44"
@@ -70,7 +70,7 @@ Feature: DemoQA - Widgets
     Then "Content" should contain "Various versions have evolved over the years"
     When I click "What tab"
     Then "Content" should contain "unknown printer took a galley"
-
+  @run
   Scenario: Tool tips
     When I click "Tool Tips option"
     And  I hover over "Hover me to see button"
